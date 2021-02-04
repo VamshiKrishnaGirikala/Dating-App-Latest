@@ -15,7 +15,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers {
 
-    // [Authorize]
+    [Authorize]
     public class UsersController : BaseApiController {
         private readonly IMapper _mapper;
         private readonly IPhotoService _photoService;
